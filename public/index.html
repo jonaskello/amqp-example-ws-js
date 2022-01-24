@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="module">
+      import AMQPClient from "./amqp-websocket-client.mjs";
+
+      const textarea = document.getElementById("textarea");
+      const input = document.getElementById("message");
+
+      const url = `ws://localhost:15670`;
+      const amqp = new AMQPClient(url, "/", "guest", "guest");
+      const conn = await amqp.connect();
+    </script>
+  </head>
+  <body>
+    <form>
+      <textarea id="textarea" rows="10"></textarea>
+      <br />
+      <input id="message" />
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
