@@ -3,12 +3,12 @@ version: "3.8"
 services:
   relay:
     image: cloudamqp/websocket-tcp-relay
-    command: --upstream tcp://rabbitmq:5672
+    command: --upstream tcp://rabbitmq:5672 --bind=0.0.0.0
     ports:
       - "15670:15670"
 
   rabbitmq:
-    image: rabbitmq:3.8.16-management
+    image: rabbitmq:3.9.13-management
     ports:
       - "5672:5672"
       - "15672:15672" # Web UI, "guest" as user/pass
