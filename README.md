@@ -1,6 +1,6 @@
 # rabbit-web
 
-Rabbit worsk in the browser.
+Rabbit now works in the browser :-).
 
 ```bash
 yarn # install deps
