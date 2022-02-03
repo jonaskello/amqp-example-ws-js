@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@cloudamqp/amqp-client@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/@cloudamqp/amqp-client/-/amqp-client-1.3.2.tgz#adf5c165b8f1ea40020c40f4e68f18ebab00598a"
-  integrity sha512-WURBgEJFEsg0v3XR1P6N251gDBmcZ8z1CU9bDASudU7JKXFhSlqBghZ2KW3oDP2WBL70zws8OCdenAVEAMplew==
+"@cloudamqp/amqp-client@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@cloudamqp/amqp-client/-/amqp-client-2.0.0.tgz#57746b461b12e1364710775bf0b63b6a167bc008"
+  integrity sha512-ADHNEgolOKBBXKgpdZWWqiYA+e3qXiuJXUWyg4V3HedXzL8y9LzK24cfAgLVOKXeBhFQBlmlgTSxBCHK4yanZQ==
 
 ansi-styles@^4.1.0:
   version "4.3.0"
