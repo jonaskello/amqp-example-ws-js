@@ -1,5 +1,6 @@
 {
   "name": "amqp-example-ws-js",
+  "description": "Example of @cloudamqp/amqp-client package connecting to RabbitMQ/AMQP via websockets in a browser application using javascript.",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
