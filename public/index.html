@@ -25,7 +25,7 @@
             msg.ack()
           })
         } catch (err) {
-          console.error("Error", err, "reconnecting in 1s")
+          console.error("Error in start", err, "reconnecting in 1s")
           disablePublish()
           setTimeout(start, 1000)
         }
@@ -37,7 +37,7 @@
           try {
             await ch.basicPublish("amq.fanout", "", input.value, { contentType: "text/plain" })
           } catch (err) {
-            console.error("Error", err, "reconnecting in 1s")
+            console.error("Error in attachPublish", err, "reconnecting in 1s")
             disablePublish()
             setTimeout(start, 1000)
           }
