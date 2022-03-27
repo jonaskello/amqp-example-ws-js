@@ -8,6 +8,7 @@ services:
       - "15670:15670"
 
   rabbitmq:
+    container_name: rabbitmq
     image: rabbitmq:3.9.13-management
     ports:
       - "5672:5672"
